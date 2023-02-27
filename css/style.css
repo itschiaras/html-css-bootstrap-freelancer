@@ -23,10 +23,20 @@ header, #bot-footer  {
     background-color: var(--bg-color);
 }
 
+.img-container {
+    width: 300px;
+}
+
+.text-container {
+    width: 400px;
+}
+
 #portfolio, #contact {
     color: var(--dark-text);
 }
 #top-footer {
     background-color: var(--light-bg);
 }
+
+
 
