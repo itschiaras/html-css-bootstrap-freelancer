@@ -70,4 +70,8 @@ header, #bot-footer  {
     height: 40px;
 }
 
+.start {
+    color: var(--bg-color);
+}
+
 
