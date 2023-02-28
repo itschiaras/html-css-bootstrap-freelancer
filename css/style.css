@@ -11,6 +11,10 @@ body {
 
 }
 
+.pt-6 {
+    padding-top: 6rem;
+}
+
 header, #bot-footer  {
     background-color: var(--dark-bg);
 }
@@ -45,6 +49,18 @@ header, #bot-footer  {
 
 #portfolio, #contact {
     color: var(--dark-text);
+}
+
+.w-60 {
+    width: 60%;
+}
+
+::-ms-input-placeholder {
+    color: var(--dark-text);
+}
+
+.cs-btn-sub {
+    background-color: var(--bg-color);
 }
 
 .card:hover::after {
