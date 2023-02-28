@@ -31,12 +31,43 @@ header, #bot-footer  {
     width: 400px;
 }
 
+.cs-btn {
+    --bs-btn-color: #ffffff;
+    --bs-btn-border-color: #ffffff;
+    
+}
+
+.cs-btn:hover {
+    border-color: white;
+    background-color: white;
+    color: black;
+}
+
 #portfolio, #contact {
     color: var(--dark-text);
+}
+
+.card:hover::after {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: '+';
+    font-size: 7rem;
+    color: var(--light-text);
+    background-color: rgba(26, 188, 156, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 #top-footer {
     background-color: var(--light-bg);
 }
 
+.social i {
+    width: 40px;
+    height: 40px;
+}
 
 
